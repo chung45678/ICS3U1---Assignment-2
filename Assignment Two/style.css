@@ -5,15 +5,18 @@ body {
 }
 
 .topBar {
-    display: block;
+    display: grid;
     background-color: #9c9c9c;
-    grid-template-columns: auto 1fr auto auto;
+    grid-template-columns: auto 1fr auto;
+    
     
 }
 
 .buttons {
-    display:grid
-    margin: 15px 40px
+    display:grid;
+    grid-column: 4;
+    
+    margin: 10px;
 }
 
 .button {
@@ -23,10 +26,17 @@ body {
     text-decoration:dashed;
     font-size: 16px;
     padding: 15px 25px;
-    border-radius: 14px
-    
+    border-radius: 14px;
+    margin: 5px;
+    grid-row: 1;
+}
+
+h1 {
+    margin: auto 10px;
 }
 
 p {
-    color:white
+    color:white;
+    margin: 5px 10px;
+    
 }
