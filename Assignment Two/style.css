@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    
+}
+
+.topBar {
+    display: block;
+    background-color: #9c9c9c;
+    grid-template-columns: auto 1fr auto auto;
+    
+}
+
+.buttons {
+    display:grid
+    margin: 15px 40px
+}
+
+.button {
+    background-color: rgb(184, 184, 184);
+    border: none;
+    color: white;
+    text-decoration:dashed;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 14px
+    
+}
+
+p {
+    color:white
+}
