@@ -1,15 +1,25 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-
-}
-html {
-    font-family:'Courier New', Courier, monospace;
-    font-size: 18px;
-
 }
 
+body {
+    font-family: Arial, sans-serif;
+    color:rgb(0, 1, 2);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #110f0f;
+    color:#f8efef
+}
+
+header .buttons {
+    margin-left: auto;
+}
 #hero {
     width: 100%;
     height: 100vh;
@@ -20,14 +30,14 @@ html {
     color:white
 }
 
-.container {
-    width: 90%;
-    height: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+.buttons button {
+    background-color: rgb(247, 247, 247);
+    padding: 10px 20px;
+    color: rgb(0, 0, 0); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    margin: 0px 5px
 }
+
+
 
