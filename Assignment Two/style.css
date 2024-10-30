@@ -5,39 +5,116 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    color:rgb(0, 1, 2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    color:white;
+    background-color: black;
 }
 
 header {
     display: flex;
     align-items: center;
     padding: 20px 20px;
-    background-color: #110f0f;
-    color:#f8efef
+    background-color: black;
+    color:white;
+}
+
+header .logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: aqua
+    letter-spacing: 1px;
 }
 
 header .buttons {
     margin-left: auto;
 }
+
 #hero {
+    display: flex;
+    align-items: center;
+    text-align:center;
+    justify-content: center;
     width: 100%;
     height: 100vh;
     background: 
         linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
         url('pictures/background.jpg') no-repeat center center;
     background-size: cover;
-    color:white
+    color:white;
+    padding: 0 20px;
+    
+}
+    
+
+#hero h1 {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
 }
 
+.email-button {
+    display: inline-block;
+    background-color: #75d3ff;
+    padding:15px 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    margin:30px 25px;
+
+}
+
+.email-button:hover{
+    transform: scale(1.05)
+}
 .buttons button {
     background-color: rgb(247, 247, 247);
     padding: 10px 20px;
     color: rgb(0, 0, 0); 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: none;
-    margin: 0px 5px
+    margin: 0px 5px;
+    border-radius: 100px;
+
 }
 
+.buttons button:hover {
+    transform: scale(1.05);
+    background-color: rgb(116, 116, 116);
+}
 
+.movie-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.movie-card {
+    background-color:white:#110f0f;
+    padding: 10px;
+    width: 150px;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+}
+
+#features {
+    padding: 40px 20px;
+    text-align:center;
+    background-color: rgb(0, 0, 0);
+    color:#f8efef
+}
+
+#features h2 {
+    font-size:32px;
+    margin-bottom: 20px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05,1.05);
+}
