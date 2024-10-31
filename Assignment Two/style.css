@@ -53,7 +53,7 @@ header .buttons {
     line-height: 1.2;
 }
 
-.email-button {
+.start-button {
     display: inline-block;
     background-color: #75d3ff;
     padding:15px 30px;
@@ -62,12 +62,11 @@ header .buttons {
     font-size: 18px;
     text-decoration: none;
     border-radius: 8px;
-    transition: all 0.3s ease;
     margin:30px 25px;
 
 }
 
-.email-button:hover{
+.start-button:hover{
     transform: scale(1.05)
 }
 .buttons button {
@@ -89,13 +88,13 @@ header .buttons {
 .movie-grid {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .movie-card {
     background-color:white:#110f0f;
     padding: 10px;
-    width: 150px;
+    width: 320px;
 }
 
 .movie-card img {
@@ -113,8 +112,27 @@ header .buttons {
 #features h2 {
     font-size:32px;
     margin-bottom: 20px;
+    
 }
 
 .movie-card:hover {
     transform: scale(1.05,1.05);
+}
+
+footer {
+    background-color: black;
+    color: #b0b0b0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer nav a {
+    color: #4fb3ff
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    color:#00a3ff
 }
