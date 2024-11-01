@@ -21,7 +21,7 @@ header {
 header .logo {
     font-size: 26px;
     font-weight: bold;
-    color: aqua
+    color: red;
     letter-spacing: 1px;
 }
 
@@ -55,13 +55,12 @@ header .buttons {
 
 .start-button {
     display: inline-block;
-    background-color: #75d3ff;
+    background-color: red;
     padding:15px 30px;
-    color: #ffffff;
+    color: white;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
-    border-radius: 8px;
     margin:30px 25px;
 
 }
@@ -92,7 +91,7 @@ header .buttons {
 }
 
 .movie-card {
-    background-color:white:#110f0f;
+    
     padding: 10px;
     width: 320px;
 }
@@ -106,7 +105,7 @@ header .buttons {
     padding: 40px 20px;
     text-align:center;
     background-color: rgb(0, 0, 0);
-    color:#f8efef
+    color:white;
 }
 
 #features h2 {
@@ -121,18 +120,18 @@ header .buttons {
 
 footer {
     background-color: black;
-    color: #b0b0b0;
+    color: grey;
     padding: 20px;
     text-align: center;
 }
 
 footer nav a {
-    color: #4fb3ff
+    color: darkcyan;
     text-decoration: none;
     margin: 0 10px;
     font-size: 14px;
 }
 
 footer nav a:hover {
-    color:#00a3ff
+    color: turquoise
 }
